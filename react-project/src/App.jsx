@@ -28,7 +28,7 @@ function App() {
       {/* < ScrollToTopAndBottom/> */}
       {/* <ScrollToSection/> */}
       {/* <WeatherApp/> */}
-      <div className="min-h-screen p-6 bg-white text-gray-600 text-lg ">
+      <div className="min-h-screen p-6 bg-white text-lg container mx-auto ">
         <NavBar/>
         <Routes>
           <Route path='/' element={<Home />}/>
